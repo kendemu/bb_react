@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+  <head>
+    <meta charset = "UTF-8">
+    <title>React App</title>
+    <script src = "bower_components/jquery/dist/jquery.min.js"></script>
+    <script src = "bower_components/react/react.min.js"></script>
+    <script src = "bower_components/react/react-dom.min.js"></script>
+    <script src = "bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+
+  
+  <body class="container" data-spy="scroll" data-target="#scrollbar" data-offset="100">
+    <header>
+      <nav class="col-sm-12 col-xs-12 col-md-12 navbar navbar-dark bg-primary navbar-fixed-top" role="navigation" id="header">
+      </nav>
+      <nav class="col-sm-12 col-xs-12 col-md-12 navbar navbar-default navbar-fixed-bottom" id="scrollbar" role="navigation">
+	<div class="container-fluid">
+	  <div class="row">
+	    <input type="button" class="btn btn-lg btn-success col-md-6 col-sm-6 col-xs-6 col-md-offset-3 col-sm-offset-3 col-xs-offset-3" onclick="location.href='#';" value="Order" size="40"></input>
+	  </div>
+	</div>
+      </nav>
+    </header>
+
+  
+    <main>
+      <div class="jumbotron">
+	<h1 class="text-center">Bee Bee Menu</h1>
+      </div>
+    </main>
+    <div id = "app"></div>
+    <script src = "src/Header.js"></script>
+    <script src = "src/MenuListContainer.js"></script>
+    <script src = "src/MenuList.js"></script>
+    <script src = "src/MenuBigList.js"></script>
+    <script src = "src/MenuButton.js"></script>
+    <script src = "src/main.js"></script>
+  </body>  
+</html>
